@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -11,7 +10,7 @@
 
     <groupId>com.github.autermann</groupId>
     <artifactId>jersey-cache-control</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>Jersey Cache Control</name>
@@ -38,7 +37,8 @@
         <url>https://github.com/autermann/jersey-cache-control</url>
         <connection>scm:git:https://github.com/autermann/jersey-cache-control.git</connection>
         <developerConnection>scm:git:https://github.com/autermann/jersey-cache-control.git</developerConnection>
-    </scm>
+      <tag>v1.0.0</tag>
+  </scm>
 
     <issueManagement>
         <system>GitHub Issues</system>
