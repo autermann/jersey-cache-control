@@ -1,0 +1,6 @@
+.DS_store
+.project
+.classpath
+.settings
+target
+nb-*.xml
