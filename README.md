@@ -10,6 +10,15 @@ public Response justAnExample() {
 }
 ```
 
+To use it include this in your `pom.xml` and `com.github.autermann.jersey.cache.CacheControlFilterFactory` to your Jersey configuration:
+```xml
+<dependency>
+    <groupId>com.github.autermann</groupId>
+    <artifactId>jersey-cache-control</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ## License
 The project is licensed under the [Apache License, Version 2.0][apache]
 
